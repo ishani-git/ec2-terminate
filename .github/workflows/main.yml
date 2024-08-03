@@ -36,7 +36,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        python your_script.py  # Replace with the actual script name
+        python C:\Users\HP\OneDrive\Desktop\deleteec2.py  # Replace with the actual script name
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
